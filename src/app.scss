@@ -1,0 +1,56 @@
+input {
+    &:focus-visible {
+        outline: none;
+    }
+}
+
+.header {
+    .header-content--left {
+        .university-logo {
+
+        }
+    }
+
+    .header-content--right {
+        .website-languages {
+
+
+            .vietnamese {
+                img {
+                    width: 25px;
+                    height: 18px;
+                    object-fit: cover;
+                    border-radius: 3px;
+                }
+            }
+
+            .english {
+                img {
+                    width: 25px;
+                    height: 18px;
+                    object-fit: cover;
+                    border-radius: 3px;
+                }
+            }
+        }
+        
+
+        .search-icon {
+            width: 20px;
+            height: 18px;
+        }
+    }
+}
+
+.pageContent {
+   .home-quick-link {
+
+        img {
+            width: auto;
+            height: 30px;
+            object-fit: cover;
+            margin-inline: auto;
+        }
+    }
+}
+
