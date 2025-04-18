@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Navigation, Pagination } from 'swiper/modules'
 
-const homeCarousel = () => {
+const HomeCarousel = () => {
     return (
       <Swiper
         modules={[Navigation, Pagination]}
@@ -26,4 +26,4 @@ const homeCarousel = () => {
     )
   }
   
-  export default homeCarousel
+  export default HomeCarousel

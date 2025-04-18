@@ -58,3 +58,18 @@ input {
     }
 }
 
+.footer {
+    .address-and-contact-info {
+        line-height: 180% !important;
+    }
+
+    .footer-menu {
+        ul {
+            li {
+                a {
+                    line-height: 180% !important;
+                }
+            }
+        }
+    }
+}
